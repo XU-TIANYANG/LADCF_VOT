@@ -1,8 +1,8 @@
 function params = init_default_params(params)
 
 % Initialize default parameters
-default_params.use_gpu = true;
-default_params.gpu_id = [5];
+default_params.use_gpu = false;
+default_params.gpu_id = [];
 default_params.clamp_position = false;
 def_param_names = fieldnames(default_params);
 for k = 1:numel(def_param_names)
